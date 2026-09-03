@@ -61,7 +61,7 @@ A bootable USB installation media was created using Rufus and the Proxmox VE ISO
 | Proxmox | vmbr1 | WAN | OPNsense WAN |
 | Proxmox | vmbr0 | LAN | Internal networking |
 
-## Security Controls
+# Security Controls
 
 The lab implements several security controls designed to reduce the risk of unauthorised access and limit the impact of security incidents.
 
@@ -107,7 +107,7 @@ Network segmentation and firewall policies are used to control traffic between e
 <img width="641" height="501" alt="Network Diagram drawio" src="https://github.com/user-attachments/assets/2bbe3e9d-68f4-4414-9042-1fc7a46794da" />
 
 
-## Asset Management
+# Asset Management
 
 The lab maintains an asset inventory to support risk assessment and security management.
 
