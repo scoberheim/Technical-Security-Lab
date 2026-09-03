@@ -24,11 +24,15 @@ The lab is continuously evolving as new security and GRC projects are developed.
 
 **Hardware**
 
-- 5th gen i5 processor
-- 16gb RAM
-- Intel I350-T4
-- Realtek RTL8111
-- 256gb SSD
+### Hardware
+
+| Component | Specification | Purpose |
+|---|---|---|
+| CPU | Intel Core i5 5th Gen | Virtual machine processing |
+| RAM | 16 GB | VM allocation and hypervisor operation |
+| Network | Intel I350-T4 | Dedicated network interfaces |
+| Network | Realtek RTL8111 | Additional network connectivity |
+| Storage | 256 GB SSD | Proxmox and virtual machine storage |
 
 **Installation**
 
