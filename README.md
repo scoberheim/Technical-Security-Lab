@@ -55,9 +55,9 @@ A bootable USB installation media was created using Rufus and the Proxmox VE ISO
 
 The environment uses OPNsense as the virtual firewall and router.
 
-- vmbr1 provides Internet connectivity to the OPNsense WAN interface.\
-- vmbr0 provides internal LAN connectivity for virtual machines and the primary network.\
-- VLAN 30 is used as an isolated Cyber Lab network for security testing and experimentation.\
+- vmbr1 provides Internet connectivity to the OPNsense WAN interface.
+- vmbr0 provides internal LAN connectivity for virtual machines and the primary network.
+- VLAN 30 is used as an isolated Cyber Lab network for security testing and experimentation.
 - Network segmentation and firewall policies are enforced by OPNsense.
 
 **Network Objectives**
