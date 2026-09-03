@@ -17,8 +17,6 @@ The environment is built using **Proxmox VE** and **OPNsense**, with multiple vi
 
 The lab also serves as the technical foundation for my **Governance, Risk and Compliance (GRC) portfolio**, providing a realistic environment in which to apply concepts such as asset identification, risk assessment, security controls, network security and business impact.
 
----
-
 ### Lab Objectives
 
 * Develop practical cybersecurity and infrastructure security skills
@@ -31,6 +29,7 @@ The lab also serves as the technical foundation for my **Governance, Risk and Co
 
 The lab is continuously evolving as new security and GRC projects are developed.
 
+---
 
 # Proxmox Setup
 
@@ -62,6 +61,7 @@ A bootable USB installation media was created using Rufus and the Proxmox VE ISO
 | Proxmox | vmbr1 | WAN | OPNsense WAN |
 | Proxmox | vmbr0 | LAN | Internal networking |
 
+---
 # Security Controls
 
 The lab implements several security controls designed to reduce the risk of unauthorised access and limit the impact of security incidents.
