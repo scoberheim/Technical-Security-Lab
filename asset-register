@@ -1,5 +1,5 @@
 | **Asset ID** | **Asset** | **Type** | **Owner** | **Function** | **Location** | **Criticality** | **C** | **I** | **A** | **Monitoring / Security Controls** |
-|:---:|:---:|:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---|
+|---|---|---|---|---|---|---|---|---|---|---|
 | AST-001 | OPNsense Firewall | Network Security | IT | Internet gateway, firewall and network security | On-prem | Critical | High | High | Critical | Firewall rules, VLAN segmentation, Suricata IDS/IPS, firewall logging |
 | AST-002 | Ubuntu Desktop | Endpoint | IT | Linux workstation / security testing | On-prem | Medium | Medium | Medium | Medium | OS patching, user access controls, host firewall, system logging |
 | AST-003 | Windows 11 Desktop | Endpoint | IT | Windows workstation / general computing | On-prem | High | High | High | High | Microsoft Defender, Windows Firewall, security logging, Sentinel monitoring |
