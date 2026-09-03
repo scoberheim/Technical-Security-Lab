@@ -1,4 +1,3 @@
-<img width="641" height="501" alt="Network Diagram drawio" src="https://github.com/user-attachments/assets/2bbe3e9d-68f4-4414-9042-1fc7a46794da" />
 # Technical-Security-Lab
 
 # proxmox-setup
@@ -52,5 +51,7 @@ This diagram illustrates the architecture of my cybersecurity homelab, built usi
 Internet connectivity is provided through an OPNsense virtual firewall, with separate WAN (vmbr1) and LAN (vmbr0) bridges configured within Proxmox. The primary LAN provides connectivity to physical devices and wireless clients, while an isolated Cyber Lab network (VLAN 30) hosts security testing systems including Kali Linux, Windows 11 and Ubuntu virtual machines.
 
 Network segmentation and firewall policies are used to control traffic between environments, allowing safe experimentation with security tools and techniques while protecting the primary network. This lab serves as a platform for developing practical skills in firewall administration, network architecture, vulnerability assessment, incident investigation, and Microsoft security technologies.
+
+<img width="641" height="501" alt="Network Diagram drawio" src="https://github.com/user-attachments/assets/2bbe3e9d-68f4-4414-9042-1fc7a46794da" />
 
 
