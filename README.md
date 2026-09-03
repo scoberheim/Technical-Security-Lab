@@ -1,3 +1,4 @@
+<img width="641" height="501" alt="Network Diagram drawio" src="https://github.com/user-attachments/assets/2bbe3e9d-68f4-4414-9042-1fc7a46794da" />
 # Technical-Security-Lab
 
 # proxmox-setup
