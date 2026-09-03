@@ -1,5 +1,25 @@
 # Technical-Security-Lab
 
+This repository documents the design, implementation and ongoing development of my technical cybersecurity homelab.
+
+The lab provides a controlled environment for developing practical skills in **security architecture, network segmentation, system administration, vulnerability management, security controls and risk assessment**.
+
+The environment is built using **Proxmox VE** and **OPNsense**, with multiple virtual machines representing common enterprise systems and security testing platforms. The lab is intentionally segmented to allow security testing and experimentation while protecting the primary network.
+
+The lab also serves as the technical foundation for my **Governance, Risk and Compliance (GRC) portfolio**, providing a realistic environment in which to apply concepts such as asset identification, risk assessment, security controls, network security and business impact.
+
+### Lab Objectives
+
+* Develop practical cybersecurity and infrastructure security skills
+* Understand and document network architecture and security controls
+* Implement network segmentation and firewall policies
+* Maintain an inventory and classification of lab assets
+* Conduct security testing in a controlled environment
+* Apply risk assessment and security governance principles
+* Produce professional technical documentation suitable for a cybersecurity portfolio
+
+The lab is continuously evolving as new security and GRC projects are developed.
+
 # proxmox-setup
 
 **Hardware**
