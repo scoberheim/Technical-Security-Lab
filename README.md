@@ -29,6 +29,7 @@ The lab also serves as the technical foundation for my **Governance, Risk and Co
 
 The lab is continuously evolving as new security and GRC projects are developed.
 
+
 # Proxmox Setup
 
 ### Hardware
@@ -41,7 +42,6 @@ The lab is continuously evolving as new security and GRC projects are developed.
 | Network | Realtek RTL8111 | Additional network connectivity |
 | Storage | 256 GB SSD | Proxmox and virtual machine storage |
 
-**Installation**
 
 ### Installation
 
