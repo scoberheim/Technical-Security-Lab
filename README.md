@@ -4,10 +4,10 @@
 
 **Hardware**
 
-- 5th gen i5 processor\
-- 16gb RAM\
-- Intel I350-T4\
-- Realtek RTL8111\
+- 5th gen i5 processor
+- 16gb RAM
+- Intel I350-T4
+- Realtek RTL8111
 - 256gb SSD
 
 **Installation**
@@ -26,25 +26,25 @@ vmbr0  	  ➡️ Internal LAN bridge connected to OPNsense LAN interface
 
 The environment uses OPNsense as the virtual firewall and router.
 
-vmbr1 provides Internet connectivity to the OPNsense WAN interface.\
-vmbr0 provides internal LAN connectivity for virtual machines and the primary network.\
-VLAN 30 is used as an isolated Cyber Lab network for security testing and experimentation.\
-Network segmentation and firewall policies are enforced by OPNsense.
+- vmbr1 provides Internet connectivity to the OPNsense WAN interface.\
+- vmbr0 provides internal LAN connectivity for virtual machines and the primary network.\
+- VLAN 30 is used as an isolated Cyber Lab network for security testing and experimentation.\
+- Network segmentation and firewall policies are enforced by OPNsense.
 
 **Network Objectives**
 
-Separate security testing systems from the primary LAN.\
-Provide Internet access to lab environments through OPNsense.\
-Simulate enterprise network segmentation and firewall management.\
-Storage configuration
+- Separate security testing systems from the primary LAN.\
+- Provide Internet access to lab environments through OPNsense.\
+- Simulate enterprise network segmentation and firewall management.\
+- Storage configuration
 
 **Virtual Machines**
 
-VM	Purpose
-Windows Server	AD Lab
-Windows 11	Client
-Ubuntu	Linux Admin
-Kali Linux	Security Testing
+VM ➡️	Purpose
+- Windows Server	AD Lab
+- Windows 11	Client
+- Ubuntu	Linux Admin
+- Kali Linux	Security Testing
 
 # Network-Diagram
 This diagram illustrates the architecture of my cybersecurity homelab, built using Proxmox VE and OPNsense. The environment is designed to provide hands-on experience with network security, system administration, virtualization, and security operations concepts.
