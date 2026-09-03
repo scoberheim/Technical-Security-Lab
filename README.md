@@ -99,6 +99,7 @@ The lab implements several security controls designed to reduce the risk of unau
 | Azure Storage Account        | Cloud Storage                   | IT       | Cloud storage for Azure-hosted data                         |
 | Microsoft Sentinel Workspace | Security Service                | Security | Centralised security monitoring, logging and incident management |
 
+---
 # Network Diagram
 This diagram illustrates the architecture of my cybersecurity homelab, built using Proxmox VE and OPNsense. The environment is designed to provide hands-on experience with network security, system administration, virtualization, and security operations concepts.
 Internet connectivity is provided through an OPNsense virtual firewall, with separate WAN (vmbr1) and LAN (vmbr0) bridges configured within Proxmox. The primary LAN provides connectivity to physical devices and wireless clients, while an isolated Cyber Lab network (VLAN 30) hosts security testing systems including Kali Linux, Windows 11 and Ubuntu virtual machines.
@@ -108,7 +109,7 @@ Network segmentation and firewall policies are used to control traffic between e
 
 <img width="641" height="501" alt="Network Diagram drawio" src="https://github.com/user-attachments/assets/2bbe3e9d-68f4-4414-9042-1fc7a46794da" />
 
-
+---
 # Asset Management
 
 The lab maintains an asset inventory to support risk assessment and security management.
