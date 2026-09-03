@@ -14,7 +14,7 @@ Realtek RTL8111\
 
 Proxmox has been installed as a type 1 hypervisor. This was done by creating a bootable usb drive with Rufus and a Proxmox iso. A type 1 hypersvisor could have been used, however, bare metal gives a more streamlined, dedicated server experience.
 
-Network Configuration
+**Network Configuration**
 
 Physical Network Interfaces  
 
@@ -22,7 +22,7 @@ Interface ➡️  Purpose\
 vmbr1     ➡️ WAN bridge connected to ISP router/modem\
 vmbr0  	  ➡️ Internal LAN bridge connected to OPNsense LAN interface
 
-Virtual Networking
+**Virtual Networking**
 
 The environment uses OPNsense as the virtual firewall and router.
 
@@ -31,7 +31,7 @@ vmbr0 provides internal LAN connectivity for virtual machines and the primary ne
 VLAN 30 is used as an isolated Cyber Lab network for security testing and experimentation.\
 Network segmentation and firewall policies are enforced by OPNsense.
 
-Network Objectives
+**Network Objectives**
 
 Separate security testing systems from the primary LAN.\
 Provide Internet access to lab environments through OPNsense.\
