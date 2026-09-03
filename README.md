@@ -20,7 +20,7 @@ Physical Network Interfaces
 
 Interface ➡️  Purpose\
 vmbr1     ➡️ WAN bridge connected to ISP router/modem\
-vmbr0  	  ➡️ Internal LAN bridge connected to OPNsense LAN interface\
+vmbr0  	  ➡️ Internal LAN bridge connected to OPNsense LAN interface
 
 Virtual Networking
 
