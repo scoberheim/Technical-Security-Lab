@@ -4,11 +4,11 @@
 
 **Hardware**
 
-5th gen i5 processor\
-16gb RAM\
-Intel I350-T4\
-Realtek RTL8111\
-256gb SSD
+- 5th gen i5 processor\
+- 16gb RAM\
+- Intel I350-T4\
+- Realtek RTL8111\
+- 256gb SSD
 
 **Installation**
 
