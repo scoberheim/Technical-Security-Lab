@@ -17,6 +17,8 @@ The environment is built using **Proxmox VE** and **OPNsense**, with multiple vi
 
 The lab also serves as the technical foundation for my **Governance, Risk and Compliance (GRC) portfolio**, providing a realistic environment in which to apply concepts such as asset identification, risk assessment, security controls, network security and business impact.
 
+---
+
 ### Lab Objectives
 
 * Develop practical cybersecurity and infrastructure security skills
