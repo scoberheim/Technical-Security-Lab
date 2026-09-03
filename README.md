@@ -62,18 +62,23 @@ The environment uses OPNsense as the virtual firewall and router.
 
 **Network Objectives**
 
-- Separate security testing systems from the primary LAN.\
-- Provide Internet access to lab environments through OPNsense.\
-- Simulate enterprise network segmentation and firewall management.\
+- Separate security testing systems from the primary LAN.
+- Provide Internet access to lab environments through OPNsense
+- Simulate enterprise network segmentation and firewall management.
 - Storage configuration
 
 **Virtual Machines**
 
-VM ➡️	Purpose
-- Windows Server	AD Lab
-- Windows 11	Client
-- Ubuntu	Linux Admin
-- Kali Linux	Security Testing
+| VM / Asset                  | Role                            | Category | Security / GRC Purpose                                      |
+| --------------------------- | ------------------------------- | -------- | ----------------------------------------------------------- |
+| OPNsense Firewall            | Network Security                | IT       | Internet gateway, firewall and network security             |
+| Ubuntu Desktop               | Endpoint                        | IT       | Linux workstation / security testing                        |
+| Windows 11 Desktop           | Endpoint                        | IT       | Windows workstation / general computing                     |
+| Kali Linux Desktop           | Security Workstation            | IT       | Security testing and vulnerability assessment               |
+| Ubuntu Server                | Server                          | IT       | File / application server                                   |
+| Proxmox                      | Infrastructure / Virtualisation | IT       | Hosts and manages virtual machines                          |
+| Azure Storage Account        | Cloud Storage                   | IT       | Cloud storage for Azure-hosted data                         |
+| Microsoft Sentinel Workspace | Security Service                | Security | Centralised security monitoring, logging and incident management |
 
 # Network-Diagram
 This diagram illustrates the architecture of my cybersecurity homelab, built using Proxmox VE and OPNsense. The environment is designed to provide hands-on experience with network security, system administration, virtualization, and security operations concepts.
