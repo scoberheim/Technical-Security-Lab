@@ -60,21 +60,29 @@ A bootable USB installation media was created using Rufus and the Proxmox VE ISO
 | OPNsense | VLAN 30 | 192.168.30.0/24 | Cyber Lab |
 | Proxmox | vmbr1 | WAN | OPNsense WAN |
 | Proxmox | vmbr0 | LAN | Internal networking |
-**Virtual Networking**
 
-The environment uses OPNsense as the virtual firewall and router.
+## Security Controls
 
-- vmbr1 provides Internet connectivity to the OPNsense WAN interface.
-- vmbr0 provides internal LAN connectivity for virtual machines and the primary network.
-- VLAN 30 is used as an isolated Cyber Lab network for security testing and experimentation.
-- Network segmentation and firewall policies are enforced by OPNsense.
+The lab implements several security controls designed to reduce the risk of unauthorised access and limit the impact of security incidents.
 
-**Network Objectives**
+### Network Segmentation
+- Primary LAN separated from Cyber Lab environment
+- VLAN 30 used for security testing
+- Firewall policies control traffic between networks
 
-- Separate security testing systems from the primary LAN.
-- Provide Internet access to lab environments through OPNsense
-- Simulate enterprise network segmentation and firewall management.
-- Storage configuration
+### Firewall
+- OPNsense provides network perimeter security
+- Traffic between network segments is controlled through firewall rules
+- NAT provides controlled Internet access to lab systems
+
+### Access Control
+- Administrative access restricted to authorised systems
+- Management interfaces separated from testing environments
+
+### Security Testing
+- Kali Linux provides a controlled security testing platform
+- Windows 11 provides a target endpoint for security testing
+- Testing is performed within the isolated lab environment
 
 **Virtual Machines**
 
