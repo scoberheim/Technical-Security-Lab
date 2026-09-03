@@ -46,4 +46,10 @@ Windows 11	Client
 Ubuntu	Linux Admin
 Kali Linux	Security Testing
 
+# Network-Diagram
+This diagram illustrates the architecture of my cybersecurity homelab, built using Proxmox VE and OPNsense. The environment is designed to provide hands-on experience with network security, system administration, virtualization, and security operations concepts.
+Internet connectivity is provided through an OPNsense virtual firewall, with separate WAN (vmbr1) and LAN (vmbr0) bridges configured within Proxmox. The primary LAN provides connectivity to physical devices and wireless clients, while an isolated Cyber Lab network (VLAN 30) hosts security testing systems including Kali Linux, Windows 11 and Ubuntu virtual machines.
+
+Network segmentation and firewall policies are used to control traffic between environments, allowing safe experimentation with security tools and techniques while protecting the primary network. This lab serves as a platform for developing practical skills in firewall administration, network architecture, vulnerability assessment, incident investigation, and Microsoft security technologies.
+
 
