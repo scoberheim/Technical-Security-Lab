@@ -19,8 +19,8 @@ Proxmox has been installed as a type 1 hypervisor. This was done by creating a b
 Physical Network Interfaces  
 
 Interface ➡️  Purpose\
-vmbr1     ➡️ WAN bridge connected to ISP router/modem\
-vmbr0  	  ➡️ Internal LAN bridge connected to OPNsense LAN interface
+- vmbr1     ➡️ WAN bridge connected to ISP router/modem\
+- vmbr0  	  ➡️ Internal LAN bridge connected to OPNsense LAN interface
 
 **Virtual Networking**
 
