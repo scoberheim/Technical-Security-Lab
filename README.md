@@ -22,8 +22,6 @@ The lab is continuously evolving as new security and GRC projects are developed.
 
 # proxmox-setup
 
-**Hardware**
-
 ### Hardware
 
 | Component | Specification | Purpose |
