@@ -107,3 +107,15 @@ Network segmentation and firewall policies are used to control traffic between e
 <img width="641" height="501" alt="Network Diagram drawio" src="https://github.com/user-attachments/assets/2bbe3e9d-68f4-4414-9042-1fc7a46794da" />
 
 
+## Asset Management
+
+The lab maintains an asset inventory to support risk assessment and security management.
+
+| Asset | Type | Environment | Criticality |
+|---|---|---|---|
+| Proxmox | Hypervisor | Infrastructure | High |
+| OPNsense | Firewall | Network | High |
+| Windows Server | Server | Lab | High |
+| Windows 11 | Endpoint | Lab | Medium |
+| Ubuntu | Server | Lab | Medium |
+| Kali Linux | Security Testing | Lab | Low |
