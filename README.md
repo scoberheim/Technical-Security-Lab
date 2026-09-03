@@ -1,5 +1,14 @@
 # Technical-Security-Lab
 
+## Contents
+
+- [Proxmox Setup](#proxmox-setup)
+- [Network Diagram](#network-diagram)
+- [Security Controls](#security-controls)
+- [Virtual Machines](#virtual-machines)
+- [Asset Management](#asset-management)
+- [GRC Projects](#grc-projects)
+
 This repository documents the design, implementation and ongoing development of my technical cybersecurity homelab.
 
 The lab provides a controlled environment for developing practical skills in **security architecture, network segmentation, system administration, vulnerability management, security controls and risk assessment**.
