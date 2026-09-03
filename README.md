@@ -62,6 +62,7 @@ A bootable USB installation media was created using Rufus and the Proxmox VE ISO
 | Proxmox | vmbr0 | LAN | Internal networking |
 
 ---
+
 # Security Controls
 
 The lab implements several security controls designed to reduce the risk of unauthorised access and limit the impact of security incidents.
