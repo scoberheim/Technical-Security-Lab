@@ -32,7 +32,12 @@ The lab is continuously evolving as new security and GRC projects are developed.
 
 **Installation**
 
-Proxmox has been installed as a type 1 hypervisor. This was done by creating a bootable usb drive with Rufus and a Proxmox iso. A type 1 hypersvisor could have been used, however, bare metal gives a more streamlined, dedicated server experience.
+### Installation
+
+Proxmox VE was installed directly onto the physical server hardware, providing a dedicated Type 1 hypervisor platform for hosting the cybersecurity lab.
+
+A bootable USB installation media was created using Rufus and the Proxmox VE ISO. Installing Proxmox directly onto the hardware provides dedicated resources for the virtualised lab environment and allows the network, storage and virtual machines to be centrally managed.
+
 
 **Network Configuration**
 
