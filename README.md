@@ -22,6 +22,7 @@ The lab is continuously evolving as new security and GRC projects are developed.
 
 # proxmox-setup
 
+
 ### Hardware
 
 | Component | Specification | Purpose |
@@ -41,14 +42,15 @@ Proxmox VE was installed directly onto the physical server hardware, providing a
 A bootable USB installation media was created using Rufus and the Proxmox VE ISO. Installing Proxmox directly onto the hardware provides dedicated resources for the virtualised lab environment and allows the network, storage and virtual machines to be centrally managed.
 
 
-**Network Configuration**
+### Network Architecture
 
-Physical Network Interfaces  
-
-Interface ➡️  Purpose
-- vmbr1     ➡️ WAN bridge connected to ISP router/modem\
-- vmbr0  	  ➡️ Internal LAN bridge connected to OPNsense LAN interface
-
+| Component | Interface | Network | Purpose |
+|---|---|---|---|
+| OPNsense | WAN | ISP Network | Internet connectivity |
+| OPNsense | LAN | 192.168.0.0/24 | Primary LAN |
+| OPNsense | VLAN 30 | 192.168.30.0/24 | Cyber Lab |
+| Proxmox | vmbr1 | WAN | OPNsense WAN |
+| Proxmox | vmbr0 | LAN | Internal networking |
 **Virtual Networking**
 
 The environment uses OPNsense as the virtual firewall and router.
